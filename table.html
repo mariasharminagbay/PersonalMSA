@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IM115Group 5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="tablebody">
+    <div>
+        <h2>Enter the following information</h2>
+    </div>
+    <div>
+        <table id='tableinfo'>
+           <thead>
+                <tr>
+                    <th class="remove_col"></th>
+                    <th> Photo</th>
+                    <th> First Name</th>
+                    <th> Last Name</th>
+                    <th> Job</th>
+                    <th> Salary</th>
+                </tr>
+            </thead>  
+            <tbody id='my_table'></tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td><input type="text" id="Photo" class='txtInput'></td>
+                    <td><input type="text" id="FName" class='txtInput'></td>
+                    <td><input type="text" id="LName" class='txtInput'></td>
+                    <td><input type="text" id="Job" class='txtInput'></td>
+                    <td><input type="text" onkeyup="onEnterUp(event)" id="Salary" class='txtInput'></td>             <td></td>
+                    <td></td>
+                </tr>
+            </tfoot> 
+        </table>
+    </div>
+    <dv>
+        <p><a href="index.html">Go Back to Main Page</a></p>
+    </dv>
+</body>
+</html>
